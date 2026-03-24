@@ -4,6 +4,7 @@ from .model.inference_config import InferenceConfig
 
 from .sklearn.classifier import TabICLClassifier
 from .sklearn.regressor import TabICLRegressor
+from .tuning import ContextTuner
 
 
 def __getattr__(name):
